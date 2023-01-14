@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+    <title>PizzaWorld</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+      <a class="navbar-brand" href="#main_page">Pizzeria</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about_us">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Opinie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservation">Rezerwacja</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron bg=image d-flex justify-content-center align-items-center">
+      <div class="col menu_button d-flex justify-content-center align-items-center">
+        <button onclick=location.href="#menu" type="button" class="btn btn-danger" >Menu</button>
+      </div>
+    </div>
+    <div class="container section_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-7 col-xl-7 text-center">
+          <div class="o_nas">
+            <h3 id="about_us" class="mb-4">O nas</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0"> 
+              Pizzeria to miejsce wyjątkowe pod wieloma względami: wspaniałe widoki na miejski Rynek, przytulne i przyjazne wnętrza, wyśmienity serwis, doskonały wybór win i w końcu świetna kuchnia, bo to ona jest główna wartością, nad którą pracujemy każdego dnia.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-10 col-md-5 about_us about_us_image_wrapper">
+          <img src="https://images.pexels.com/photos/4004465/pexels-photo-4004465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="about_us_image">
+        </div>
+      </div>
+    </div>
+    <div class="container section_container ">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 id="menu" class="mb-4">Menu</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam. </p>
+        </div>
+      </div>
+      <div class="row text-center d-flex align-items-stretch justify-content-center">
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Diavola</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, włoskie pikantne salami</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Vegetariana</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, szpinak, oliwki, pomidorki koktajlowe, cebula, rukola</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Ricco</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, boczek, włoskie pikantne salami, cebula</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Caprese</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, pomidorki koktajlowe, świeża bazylia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Margherita</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, świeża bazylia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center menu_section">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Prosciutto</h5>
+              <p class="card-text">sos pomidorowy, ser mozzarella, szynka parmeńska, pomidorki koktajlowe, rukola, parmezan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 id="reviews" class="mb-4">Opinie o nas</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam. </p>
+        </div>
+      </div>
+      <div class="row text-center d-flex align-items-stretch justify-content-center">
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center">
+          <div class="card testimonial-card">
+            <div class="card-up" style="background-image: url(https://images.pexels.com/photos/2233348/pexels-photo-2233348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);"></div>
+            <div class="card-body">
+              <h4 class="mb-4">Maria Smantha</h4>
+              <hr />
+              <p class="dark-grey-text mt-4">
+                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch justify-content-center">
+          <div class="card testimonial-card">
+            <div class="card-up" style="background-image: url(https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);"></div>
+            <div class="card-body">
+              <h4 class="mb-4">Lisa Cudrow</h4>
+              <hr />
+              <p class="dark-grey-text mt-4">
+                <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores repudi mollitia architecto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-0 d-flex align-items-stretch justify-content-center">
+          <div class="card testimonial-card">
+            <div class="card-up" style="background-image: url(https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);"></div>
+            <div class="card-body">
+              <h4 class="mb-4">John Smith</h4>
+              <hr />
+              <p class="dark-grey-text mt-4">
+                <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab aliquam repellat rem unde ducimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 id="gallery" class="mb-4">Galeria</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam. </p>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-70 gallery_img" src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-70 gallery_img" src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-70 gallery_img" src="https://images.pexels.com/photos/1878346/pexels-photo-1878346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80 gallery_img" src="https://images.pexels.com/photos/3944307/pexels-photo-3944307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Forth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-80 gallery_img" src="https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Fifth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="container section_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 id="reservation" class="mb-4">Rezerwacja Stolika</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam. </p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="startDate">Rezerwuję stolik na</label>
+              <input id="startDate" class="form-control" type="date" />   
+            </div>
+            <div class="mb-3">
+              <label for="startDate">Godzina</label>
+              <input type="time" class="form-control" value="10:05 AM" />   
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Liczba osób - max 15</label>
+              <input type="number" id="typeNumber" class="form-control" min="1" max="15" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Telefon w formacie 123-456-789</label>
+              <input type="tel" id="typePhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Imię i nazwisko</label>
+              <input type="text" class="form-control" id="exampleInputName" maxlength="50">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputTextArea" class="form-label">Uwagi</label>
+              <textarea class="form-control" id="exampleInputTextArea" rows="3" maxlength="500"></textarea>
+            </div>
+            <div class="col menu_button d-flex justify-content-center align-items-center">
+              <button type="button" class="btn btn-danger">Wyślij</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-white">
+      <div class="container-fluid pt-1 footer_section">
+        <section class="mb-2">
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center text-dark p-2" style="background-color: rgba(0, 0, 0, 0.2);"> © 2020 Copyright: Natalia Smoła </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
